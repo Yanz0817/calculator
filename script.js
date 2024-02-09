@@ -8,31 +8,19 @@ function calculate(){
   var result;
 
    
-      if(operator === "Sum"){
+    if(operator === "Sum"){
        result=v1+v2;
-    
-    } 
-    
-    else if(operator === "Minus"){
+    }else if(operator === "Minus"){
       result=v1-v2;
-      
-    }
-    else if(operator === "Multiply"){
-       result=v1*v2;
-      
-    } 
-    
-    else if(operator === "Divide"){
+    }else if(operator === "Multiply"){
+       result=v1*v2; 
+    }else if(operator === "Divide"){
       result=v1/v2;
-       
-    } 
-      else{
+    }else{
       alert('Please put number and operator');
       return;
     } 
-    
    alert('the answer is' + " " + result);
-   
 }
 
 
